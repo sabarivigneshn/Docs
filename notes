@@ -1,0 +1,19 @@
+configure rspec in rails application.
+
+  1.install rspec 
+  
+    echo 'gem "rspec-rails", :group => [:development, :test]' >> Gemfile
+    
+  2.bundle
+  
+  3.generate bootstrap folder structure 
+      
+        rails generate rspec:install
+  
+  4.ensure test environment created in database.yml
+  
+  5.in application.rb try this
+      # config.web_console.development_only = false
+  
+  6.then run rspec 
+      bundle exec rspec
