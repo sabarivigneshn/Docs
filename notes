@@ -17,3 +17,18 @@ configure rspec in rails application.
   
   6.then run rspec 
       bundle exec rspec
+
+configure cucumber in rails app
+
+  1.add gem to gemfile
+    
+      group :test, :development do
+        gem 'cucumber-rails', :require => false
+        # database_cleaner is not required, but highly recommended
+        gem 'database_cleaner'
+      end
+  2.bundle
+  
+  3.rails generate cucumber:install
+  
+  4.bundle exec cucumber
