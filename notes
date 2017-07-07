@@ -32,3 +32,8 @@ configure cucumber in rails app
   3.rails generate cucumber:install
   
   4.bundle exec cucumber
+
+
+If server not update bundle, shut down server
+
+  sudo init 6
