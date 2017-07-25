@@ -1,0 +1,12 @@
+Create To-do list - Web App (Ruby on Rails, Ajax and Rspec)
+
+Features:
+Signup - Users can create accounts.
+Profile - After sign up, they should fill up their profile details (name, email address,phone number, home address, DOB, and upload a profile picture)
+User - Create,edit and mark the task as complete.
+User should be able to search or filter for tasks.
+Admin - Overview of all users. Create, edit and delete tasks. Should be able to select multiple tasks and assign to a user(create new users).
+When a user completes a tasks, it should go for approval to the admin.
+Its up to you how you organize all these things in a single page.
+Dashboard- Implement high chats and display in-depth analytics (total number of tasks, status, user analytics)
+Deploy the app on Heroku and send us the link. Share the code via GitHub
