@@ -12,11 +12,18 @@ configure rspec in rails application.
   
   4.ensure test environment created in database.yml
   
-  5.in application.rb try this
+  5. and then do migrations
+        rake db:migrate && rake db:test:prepare
+  
+  6.in application.rb try this
       # config.web_console.development_only = false
   
-  6.then run rspec 
+  7.then run rspec 
       bundle exec rspec
+      
+      For creating spec for model,controller
+        rails generate rspec:model widget
+
 
 configure cucumber in rails app
 
