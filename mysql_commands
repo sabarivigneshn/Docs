@@ -9,6 +9,11 @@ my.cnf file location
 
 /etc/mysql/my.cnf
 
+mysql command to disable query cache
+    SET SESSION query_cache_type=0;
+    
+sql safe update
+  SET SQL_SAFE_UPDATES = 0;
 
 
 
