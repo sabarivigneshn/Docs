@@ -15,7 +15,11 @@ mysql command to disable query cache
 sql safe update
   SET SQL_SAFE_UPDATES = 0;
 
-
+To provide permissions for folder access
+   chown -R 775 folder_name
+   
+To show the folder list with permissions
+    ls -l
 
 rubymine
 
