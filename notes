@@ -45,3 +45,11 @@ For more info visit https://cucumber.io/docs/reference/rails
 If server not update bundle, shut down server
 
   sudo init 6
+  
+  
+  ===================================================================
+  https://inia.objectfrontier.com/services/resources-info
+  
+  key: HZ6EkgQdGgPVTOJuXwef
+content-type: application/json
+=====================================================================
