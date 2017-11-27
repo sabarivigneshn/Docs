@@ -61,3 +61,7 @@ Installation Guide for Mean stack environment
 ====================================================
 https://www.ostechnix.com/install-mean-js-stack-ubuntu/
 ====================================================
+
+To reclaim ownership of the .npm directory execute:
+
+sudo chown -R $(whoami) ~/.npm
