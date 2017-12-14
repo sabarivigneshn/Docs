@@ -65,3 +65,7 @@ https://www.ostechnix.com/install-mean-js-stack-ubuntu/
 To reclaim ownership of the .npm directory execute:
 
 sudo chown -R $(whoami) ~/.npm
+
+To run node inspector with server
+  node-debug -p 3001 server.js
+  
