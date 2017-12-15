@@ -68,4 +68,12 @@ sudo chown -R $(whoami) ~/.npm
 
 To run node inspector with server
   node-debug -p 3001 server.js
+
+Nginx server commands
+  
+To tail error log - tail -f /var/log/nginx/error.log
+sudo service nginx start|stop|restart|status
+To test nginx - sudo nginx -t
+  
+  
   
