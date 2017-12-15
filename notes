@@ -74,6 +74,9 @@ Nginx server commands
 To tail error log - tail -f /var/log/nginx/error.log
 sudo service nginx start|stop|restart|status
 To test nginx - sudo nginx -t
+
+Reference:
+  https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04
   
   
   
