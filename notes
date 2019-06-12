@@ -81,3 +81,10 @@ Reference:
   
 To fix Enopsc  
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+to save git credentials
+git config --global user.name
+git config --global user.password
+
+git config credential.helper store
+git pull
