@@ -88,3 +88,15 @@ git config --global user.password
 
 git config credential.helper store
 git pull
+
+
+//git create feature branch and push to origin
+checkout a branch and create a new branch
+git checkout -b "branch_name"
+
+// push to origin
+git push -u origin "branch_name"
+
+// others get branch by 
+git fetch
+git checkout origin/your_branch
