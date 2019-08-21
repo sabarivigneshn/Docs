@@ -103,3 +103,6 @@ git checkout origin/your_branch
 
 // installing pupetter with chromium issue
 sudo npm install puppeteer --unsafe-perm=true --allow-root
+
+
+// docker guide
